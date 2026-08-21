@@ -1,0 +1,24 @@
+{
+  "availability": {
+    "latest_period": "2026-04",
+    "checked_at": "2026-08-21"
+  },
+  "defaults": {
+    "start_year": 2015,
+    "end_year": 2026,
+    "start_month": 1,
+    "end_month": 4,
+    "months_per_job": 3,
+    "currency": "rmb",
+    "ie_types": ["export", "import"],
+    "groups": ["commodity", "partner", "trade_mode", "province"]
+  },
+  "products": [
+    {"code": "85044030", "label": "光伏逆变器", "enabled": true},
+    {"code": "70071900", "label": "70071900", "enabled": true},
+    {"code": "85414300", "label": "光伏组件", "enabled": true},
+    {"code": "85414200", "label": "光伏电池片", "enabled": true},
+    {"code": "38180019", "label": "38180019", "enabled": true},
+    {"code": "38180090", "label": "38180090", "enabled": true}
+  ]
+}

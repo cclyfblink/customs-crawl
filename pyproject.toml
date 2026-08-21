@@ -3,7 +3,9 @@ name = "customs-crawl"
 version = "0.1.0"
 description = "Standalone China Customs statistics crawler coordinator"
 requires-python = ">=3.11,<3.15"
-dependencies = []
+dependencies = [
+  "tzdata>=2024.1",
+]
 
 [project.optional-dependencies]
 dev = [
